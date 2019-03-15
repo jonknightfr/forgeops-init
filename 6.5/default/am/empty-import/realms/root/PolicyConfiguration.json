@@ -21,7 +21,7 @@
     "sslEnabled" : false,
     "usersBaseDn" : "ou=identities",
     "bindPassword" : null,
-    "bindPassword-encrypted" : "AAAAA0FFUwIQxsTgu1dyyUAa6K6gUgIyeksCm3TmtkDUYjnFZfWdWMnqj/c+wzi4Yg==",
+    "bindPassword-encrypted" : "AAAAA0FFUwIQc3hHd5WCu/2CtbI11B1FNuafnqIOg+zFkgjTs5hHT/zIkJSgNaJZmw==",
     "connectionPoolMaximumSize" : 10,
     "policyHeartbeatTimeUnit" : "SECONDS",
     "realmSearchFilter" : "(objectclass=sunismanagedorganization)",
