@@ -1,0 +1,14 @@
+{
+  "metadata" : {
+    "realm" : "/",
+    "amsterVersion" : "6.5.0.1",
+    "entityType" : "AuthTree",
+    "entityId" : "YBS Tree",
+    "pathParams" : { }
+  },
+  "data" : {
+    "_id" : "YBS Tree",
+    "nodes" : { },
+    "entryNodeId" : "e301438c-0bd0-429c-ab0c-66126501069a"
+  }
+}
