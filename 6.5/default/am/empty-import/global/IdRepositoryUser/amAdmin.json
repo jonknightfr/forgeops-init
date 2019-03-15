@@ -9,7 +9,7 @@
   "data" : {
     "_id" : "amAdmin",
     "userPassword" : null,
-    "userPassword-encrypted" : "AAAAA0FFUwIQ7v4M5dzy4do7xz7d3t02mVGK19+YJcQxwy+BBAgmIsseLiCX0VhfIClyyzjBwqOmey6o7vNmmlOVcxBuhZbHPjhi7H9XCclFlUc8SaUbh+zl5+bPGPRsqXVYrypLGnb3J3HBaZOlXJwHhu2k8Asck846eQYaNq7wbNzCUzzLdMgN6sp1HzIuP89DZYdumgttfhVVf4988TU=",
+    "userPassword-encrypted" : "AAAAA0FFUwIQmhmSX3VNFZM9077V4hRsFPDJLKD2X06jaWoxtZFvFyz+KJuR2MsJ2Y4ZTAb3SLFYPuW1rJZjpCE2q9GxVUnrrfQGPS8sbmiyyV5HUXdPJ+Wz1LjXL5AnCUEg/vDEIaSsUeZoih1f+ZVCWg8a+8HSWPtXmYx8RkcryMZRaQMX0nKRf/LzaUJD6qmyaFixg1WX03hjq0JIAkw=",
     "givenName" : "amAdmin",
     "roles" : [ ],
     "dn" : "uid=amAdmin,ou=people,",
