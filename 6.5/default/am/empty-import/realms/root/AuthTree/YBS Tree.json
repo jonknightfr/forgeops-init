@@ -8,7 +8,38 @@
   },
   "data" : {
     "_id" : "YBS Tree",
-    "nodes" : { },
-    "entryNodeId" : "e301438c-0bd0-429c-ab0c-66126501069a"
+    "nodes" : {
+      "510347fc-9998-42ab-9baf-8105b08b5ac6" : {
+        "displayName" : "Username Collector",
+        "nodeType" : "UsernameCollectorNode",
+        "connections" : {
+          "outcome" : "1821301b-a0f6-4d17-a67d-0d28217787e8"
+        }
+      },
+      "1821301b-a0f6-4d17-a67d-0d28217787e8" : {
+        "displayName" : "Password Collector",
+        "nodeType" : "PasswordCollectorNode",
+        "connections" : {
+          "outcome" : "9d5d47cb-b886-44c7-81f6-d12ceb0885bd"
+        }
+      },
+      "9d5d47cb-b886-44c7-81f6-d12ceb0885bd" : {
+        "displayName" : "Data Store Decision",
+        "nodeType" : "DataStoreDecisionNode",
+        "connections" : {
+          "false" : "3813ff23-66fa-451d-80f2-cc5b21c2f706",
+          "true" : "70e691a5-1e33-4ac3-a356-e7b6d60d92e0"
+        }
+      },
+      "3813ff23-66fa-451d-80f2-cc5b21c2f706" : {
+        "displayName" : "Retry Limit Decision",
+        "nodeType" : "RetryLimitDecisionNode",
+        "connections" : {
+          "Reject" : "e301438c-0bd0-429c-ab0c-66126501069a",
+          "Retry" : "1821301b-a0f6-4d17-a67d-0d28217787e8"
+        }
+      }
+    },
+    "entryNodeId" : "510347fc-9998-42ab-9baf-8105b08b5ac6"
   }
 }
